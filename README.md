@@ -26,3 +26,8 @@ If `[paths]` is omitted, all .d.ts files in the current directory and below are 
 `dts-downlevel 'dist/**/*.d.ts' 'build/**/*.d.ts'`
 
 
+
+
+# Rules
+
+To see the rules that this utility currently supports, view the source code: https://github.com/christopherthielen/dts-downlevel/blob/master/rules.js
