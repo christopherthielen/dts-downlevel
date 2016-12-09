@@ -1,6 +1,6 @@
 {
   "name": "dts-downlevel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Remove TS 2.1 syntax from .d.ts files for backwards compatibility with TS 1.8",
   "main": "index.js",
   "repository": {
