@@ -1,0 +1,21 @@
+{
+  "name": "dts-downlevel",
+  "version": "0.1.0",
+  "description": "Remove TS 2.1 syntax from .d.ts files for backwards compatibility with TS 1.8",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/christopherthielen/dts-downlevel.git",
+    "type": "git"
+  },
+  "author": "Chris Thielen",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.3.0"
+  },
+  "bin": {
+    "dts-downlevel" : "./index.js"
+  },
+  "dependencies": {
+    "replace-in-file": "^2.0.3"
+  }
+}
