@@ -17,6 +17,17 @@ var replacements = [
     with: "$1"
   },
 
+  {
+    doc: "Remove `abstract` from properties",
+    replace: /^(\s+)abstract (\w+: .*;)/gm,
+    with: "$1$2"
+  },
+  {
+    doc: "Remove constant initializer values",
+    replace: /(const \w+) = .*;$/gm,
+    with: "$1;"
+  },
+
 ];
 
 replacements.forEach(rule => {
