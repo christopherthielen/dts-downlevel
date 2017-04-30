@@ -7,8 +7,8 @@ var rules = require('./rules');
 
 rules.forEach(rule => {
   var cmd = {
-    replace: rule.replace,
-    with: rule.with,
+    from: rule.replace,
+    to: rule.with,
     files: globs,
   };
 
