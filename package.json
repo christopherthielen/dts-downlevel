@@ -16,6 +16,8 @@
     "dts-downlevel": "./index.js"
   },
   "dependencies": {
-    "replace-in-file": "^2.5.0"
+    "replace-in-file": "^2.5.0",
+    "yargs": "^15.3.1",
+    "semver": "^7.3.2"
   }
 }
